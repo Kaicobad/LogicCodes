@@ -22,24 +22,48 @@ namespace CodeTest
             {
                 for (int i = 0; i < s.Length; i++)
                 {
-                    Console.WriteLine(s[i]);
+                    GetStringValue(s[i].ToString());
+
+                    Console.WriteLine(GetStringValue(s[i].ToString()));
                     Console.ReadLine();
                 }
             }   
         }
 
-        static void getStringValue(string userInput)
+        static string GetStringValue(string userInput)
         {
+            string I = "", V = "", X = "", L = "", C = "", D = "", M = "";
+            if (userInput == I)
+            {
+                return userInput = "1";
+            }
+            else if (userInput == V)
+            {
+                return userInput = "5"; 
+            }
+            else if (userInput == X)
+            {
+                return userInput = "10";
+              
+            }
+            else if (userInput == L)
+            {
+                return userInput = "5"; 
+            }
+            else if (userInput == C)
+            {
+                return userInput = "100";
+            }
+            else if (userInput == D)
+            {
+                return userInput = "500";
+            }
+            else if (userInput == M)
+            {
+                return userInput = "1000";
+            }
 
-            string I = 1.ToString();
-            string V = 5.ToString();
-            string X = 10.ToString();
-            string L = 50.ToString();
-            string C = 100.ToString();
-            string D = 500.ToString();
-            string M = 1000.ToString();
-
-
+            return userInput;
         }
     }
 }
