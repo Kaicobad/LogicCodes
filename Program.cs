@@ -28,8 +28,17 @@ namespace CodeTest
             }   
         }
 
-        static void getNumber(int I, int V, int X, int L, int C,int D, int M)
+        static void getStringValue(string userInput)
         {
+
+            string I = 1.ToString();
+            string V = 5.ToString();
+            string X = 10.ToString();
+            string L = 50.ToString();
+            string C = 100.ToString();
+            string D = 500.ToString();
+            string M = 1000.ToString();
+
 
         }
     }
