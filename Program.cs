@@ -22,9 +22,9 @@ namespace CodeTest
             {
                 for (int i = 0; i < s.Length; i++)
                 {
-                    GetStringValue(s[i].ToString());
+                   var st =  Convert.ToInt32(GetStringValue(s[i].ToString()));
 
-                    Console.WriteLine(GetStringValue(s[i].ToString()));
+                    Console.WriteLine(st);
                     Console.ReadLine();
                 }
             }   
@@ -32,33 +32,33 @@ namespace CodeTest
 
         static string GetStringValue(string userInput)
         {
-            string I = "", V = "", X = "", L = "", C = "", D = "", M = "";
-            if (userInput == I)
+            
+            if (userInput == "I")
             {
-                return userInput = "1";
+                return userInput = 1.ToString();
             }
-            else if (userInput == V)
+            else if (userInput == "V")
             {
                 return userInput = "5"; 
             }
-            else if (userInput == X)
+            else if (userInput == "X")
             {
                 return userInput = "10";
               
             }
-            else if (userInput == L)
+            else if (userInput == "L")
             {
-                return userInput = "5"; 
+                return userInput = "50"; 
             }
-            else if (userInput == C)
+            else if (userInput == "C")
             {
                 return userInput = "100";
             }
-            else if (userInput == D)
+            else if (userInput == "D")
             {
                 return userInput = "500";
             }
-            else if (userInput == M)
+            else if (userInput == "M")
             {
                 return userInput = "1000";
             }
