@@ -12,7 +12,12 @@ namespace CodeTest
     {
         static void Main(string[] args)
         {
-            string s = Console.ReadLine();
+            string s = "XVII";
+            RomanToInt(s);
+        }
+
+        static int RomanToInt(string s)
+        {
             if (s.Length > 15)
             {
                 Console.WriteLine("String Is More than 15 Disgit");
@@ -22,33 +27,35 @@ namespace CodeTest
             {
                 for (int i = 0; i < s.Length; i++)
                 {
-                   var st =  Convert.ToInt32(GetStringValue(s[i].ToString()));
+                    var st = Convert.ToInt32(GetStringValue(s[i].ToString()));
 
                     Console.WriteLine(st);
                     Console.ReadLine();
                 }
-            }   
+            }
+
+
         }
 
         static string GetStringValue(string userInput)
         {
-            
+
             if (userInput == "I")
             {
-                return userInput = 1.ToString();
+                return userInput = "1";
             }
             else if (userInput == "V")
             {
-                return userInput = "5"; 
+                return userInput = "5";
             }
             else if (userInput == "X")
             {
                 return userInput = "10";
-              
+
             }
             else if (userInput == "L")
             {
-                return userInput = "50"; 
+                return userInput = "50";
             }
             else if (userInput == "C")
             {
