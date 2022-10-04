@@ -1,0 +1,8 @@
+D:\ConsoleTest\CodeTest\bin\Debug\CodeTest.exe.config
+D:\ConsoleTest\CodeTest\bin\Debug\CodeTest.exe
+D:\ConsoleTest\CodeTest\bin\Debug\CodeTest.pdb
+D:\ConsoleTest\CodeTest\obj\Debug\CodeTest.csproj.AssemblyReference.cache
+D:\ConsoleTest\CodeTest\obj\Debug\CodeTest.csproj.SuggestedBindingRedirects.cache
+D:\ConsoleTest\CodeTest\obj\Debug\CodeTest.csproj.CoreCompileInputs.cache
+D:\ConsoleTest\CodeTest\obj\Debug\CodeTest.exe
+D:\ConsoleTest\CodeTest\obj\Debug\CodeTest.pdb
